@@ -1,7 +1,7 @@
 import './App.css';
-import Listing from '../components/Listing';
-import type { Item } from '../components/Listing';
-import etsyData from '../etsy.json';
+import Listing from '../Listing/Listing';
+import type { Item } from '../Listing/Listing';
+import etsyData from '../../etsy.json';
 
 function App() {
   return (
